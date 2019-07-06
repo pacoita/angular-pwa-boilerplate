@@ -27,16 +27,16 @@
   ],
   "dataGroups": [{
     "name": "jokes-cache",
-    "urls": [ "icanhazdadjoke.com/" ],
+    "urls": [ "https://icanhazdadjoke.com/" ],
     "cacheConfig": {
       "strategy": "performance",
       "maxSize": 5,
-      "maxAge": "3d"
+      "maxAge": "1d"
     }
   },
   {
     "name": "stocks-cache",
-    "urls": [ "www.alphavantage.co/*" ],
+    "urls": [ "https://api.worldtradingdata.com/api/v1/stock" ],
     "cacheConfig": {
       "strategy": "freshness",
       "maxSize": 10,
