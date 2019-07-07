@@ -1,27 +1,27 @@
 # AngularPwa
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+A demo Angular PWA using `performance` and `freshness`caching stretegies.
 
-## Development server
+The APIs used in the demo are:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- https://icanhazdadjoke.com/api
+- https://www.worldtradingdata.com/
 
-## Code scaffolding
+## Update npm libraries
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+First install or update your local project's npm dependencies:
 
-## Build
+```npm install```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Run a production build
 
-## Running unit tests
+Exceute the following command for a produciton build:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+``` ng build --prod ```
 
-## Running end-to-end tests
+## Serve the application
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+As we cannot use `ne serve` with servie workers, you need to run a web server like [http server](https://www.npmjs.com/package/http-server) or the [web server](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en) Chrome extension and target the previously build `dist` folder.
 
-## Further help
+Open the browser at the prposed address.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
