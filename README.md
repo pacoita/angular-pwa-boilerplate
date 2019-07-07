@@ -11,7 +11,7 @@
 
 A demo Angular PWA using `performance` and `freshness`caching stretegies.
 
-This repository is the practical explanation of an article about PWAs, publisehd on [Dev.to](https://dev.to/paco_ita/a-gentle-introduction-to-progressive-web-apps-step-1-24da) 
+This repository is the practical explanation of an article about PWAs, publisehd on [Dev.to](https://dev.to/paco_ita/create-progressive-web-apps-with-angular-workbox-pwa-builder-step-4-27d#angular) 
 
 The APIs used in the demo are:
 
