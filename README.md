@@ -1,6 +1,17 @@
-# AngularPwa
+<h1 align="center">Welcome to the Angular Pwa demo!</h1>
+<p align="center">
+  <a href="https://twitter.com/paco_ita">
+    <img alt="Twitter: paco_ita" src="https://img.shields.io/twitter/follow/paco_ita.svg?style=social" target="_blank" />
+  </a>
+  &nbsp;&nbsp;&nbsp;<a href="https://dev.to/paco_ita">
+  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Francesco Leardini's DEV Profile" height="30" width="30">
+</a> 
+
+</p>
 
 A demo Angular PWA using `performance` and `freshness`caching stretegies.
+
+This repository is the practical explanation of an article about PWAs, publisehd on [Dev.to](https://dev.to/paco_ita/a-gentle-introduction-to-progressive-web-apps-step-1-24da) 
 
 The APIs used in the demo are:
 
