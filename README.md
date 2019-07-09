@@ -1,10 +1,15 @@
 <h1 align="center">Welcome to the Angular Pwa demo!</h1>
 <p align="center"> 
+    <a href="https://www.ruby-lang.org/en/">
+    <img src="https://img.shields.io/badge/Angular-v8.1.0-green.svg" alt="ruby version">
+  </a>
+  &nbsp;&nbsp;&nbsp;
   <strong>Follow me on Twitter or Dev.to:&nbsp;&nbsp;&nbsp;</strong>
   <a href="https://twitter.com/paco_ita">
     <img alt="Twitter: paco_ita" src="https://img.shields.io/twitter/follow/paco_ita.svg?style=social" target="_blank" />
   </a>
-  &nbsp;&nbsp;&nbsp;<a href="https://dev.to/paco_ita">
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://dev.to/paco_ita">
   <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Francesco Leardini's DEV Profile" height="30" width="30">
 </a> 
 
