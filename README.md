@@ -9,9 +9,6 @@
 </a> 
 
 </p>
-<br>
-<h3>An Angular PWA demo using `performance` and `freshness`caching stretegies.</h3>
-<br><br>
 
 This repository is the practical counterpart of my article ("[Create Progressive Web Apps with Angular, Workbox, PWA Builder](https://dev.to/paco_ita/create-progressive-web-apps-with-angular-workbox-pwa-builder-step-4-27d#angular)") publisehd on Dev.to. The article is part of a series focusing on Progressive Web Apps technologies.
 <br><br>
