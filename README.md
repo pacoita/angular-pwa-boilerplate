@@ -43,3 +43,24 @@ As we cannot use `ne serve` with service workers, you need to run a web server i
 
 Open the browser at the proposed address.
 
+## Troubleshooting
+If, *and onyl if*, the service worker is not registered locally when the application is served via web server, then you can force explicitly the registration as workaround. Add the following snipped in the `main.ts` file:
+
+```javascript
+platformBrowserDynamic()
+    .bootstrapModule(AppModule)
+    .then(() => {
+        if ('serviceWorker' in navigator && environment.production) {
+            navigator.serviceWorker.register('./ngsw-worker.js');
+        }
+    })
+    .catch(console.error);
+```
+
+Other users reported issues with some versions of the angular-cli:
+
+[Github issue](https://github.com/angular/angular-cli/issues/13351)
+
+[Github comment](https://github.com/angular/angular-cli/issues/8515#issuecomment-486017106)
+
+
