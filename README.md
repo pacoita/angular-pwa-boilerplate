@@ -44,7 +44,9 @@ As we cannot use `ne serve` with service workers, you need to run a web server i
 Open the browser at the proposed address.
 
 ## Troubleshooting
-If, *and onyl if*, the service worker is not registered locally when the application is served via web server, then you can force explicitly the registration as workaround. Add the following snipped in the `main.ts` file:
+If, *and only if*, the service worker is not registered when the application is served locally via web server, then you can force explicitly the SW registration.
+
+Add the following snipped in the `main.ts` file:
 
 ```javascript
 platformBrowserDynamic()
