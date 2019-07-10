@@ -125,7 +125,7 @@
         "deploy": {
           "builder": "ngx-gh:deploy",
           "options": {
-            "outputPath": "docs/angular-pwa/"
+            "outputPath": "docs"
           }
         }
       }
