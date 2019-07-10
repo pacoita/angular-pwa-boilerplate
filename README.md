@@ -12,9 +12,8 @@
   <a href="https://dev.to/paco_ita">
   <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Francesco Leardini's DEV Profile" height="30" width="30">
 </a> 
-
 </p>
-
+<br>
 This repository is the practical counterpart of my article ("[Create Progressive Web Apps with Angular, Workbox, PWA Builder](https://dev.to/paco_ita/create-progressive-web-apps-with-angular-workbox-pwa-builder-step-4-27d#angular)") publisehd on Dev.to. The article is part of a series focusing on Progressive Web Apps technologies.
 <br><br>
   
@@ -27,13 +26,14 @@ The APIs used in the demo are:
 
 - https://icanhazdadjoke.com/api
 - https://www.worldtradingdata.com/
-<br><br>
+<br><br><br>
+
 ## 1. Update npm libraries
 
 First install or update your local project's npm dependencies:
 
 ```npm install```
-<br>
+<br><br>
 ## 2. Run a production build
 
 Exceute a production build:
@@ -41,13 +41,13 @@ Exceute a production build:
 ``` ng build --prod ```
 
 This command will generate a dist/angular-pwa folder
-<br>
+<br><br>
 ## 3. Serve the application
 
 As we cannot use `ne serve` with service workers, you need to run a web server iof your choice. As example: [http server](https://www.npmjs.com/package/http-server) or the [web server](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en) Chrome extension and target the previously built `dist/angular-pwa` folder.
 
 Open the browser at the proposed address.
-
+<br><br>
 ## Troubleshooting
 If, *and only if*, the service worker is not registered when the application is served locally via web server, then you can force explicitly the SW registration.
 
