@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1562743677508,
+  "timestamp": 1562748737267,
   "index": "https://pacoita.github.io/angular-pwa-boilerplate/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "https://pacoita.github.io/angular-pwa-boilerplate/favicon.ico",
         "https://pacoita.github.io/angular-pwa-boilerplate/index.html",
-        "https://pacoita.github.io/angular-pwa-boilerplate/main-es2015.8ffc804d362d33175282.js",
-        "https://pacoita.github.io/angular-pwa-boilerplate/main-es5.b199a2dbaa57c901505d.js",
+        "https://pacoita.github.io/angular-pwa-boilerplate/main-es2015.aa346ab0abd3250385e4.js",
+        "https://pacoita.github.io/angular-pwa-boilerplate/main-es5.8431e5a14d6c1981fcec.js",
         "https://pacoita.github.io/angular-pwa-boilerplate/polyfills-es2015.9a05c5eeb2c24cb2663d.js",
         "https://pacoita.github.io/angular-pwa-boilerplate/polyfills-es5.fdab6b769da451ba6a00.js",
         "https://pacoita.github.io/angular-pwa-boilerplate/runtime-es2015.9ca3be5252992b4a93d5.js",
@@ -78,9 +78,9 @@
     "https://pacoita.github.io/angular-pwa-boilerplate/assets/logos/angular_logo.png": "2ab8203e32bbc517f89df4642a38157a34d2d521",
     "https://pacoita.github.io/angular-pwa-boilerplate/assets/logos/pwa_logo.png": "6fd7759562512941c8ee89855a409b658c2b0b16",
     "https://pacoita.github.io/angular-pwa-boilerplate/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://pacoita.github.io/angular-pwa-boilerplate/index.html": "3dd5bfdbed45e8a508754c7d2a5de145a19a58ed",
-    "https://pacoita.github.io/angular-pwa-boilerplate/main-es2015.8ffc804d362d33175282.js": "367f3edb78c73c40a564fd4bc766b797afed1e6b",
-    "https://pacoita.github.io/angular-pwa-boilerplate/main-es5.b199a2dbaa57c901505d.js": "581324208374773a1cd863651c29a6beaa008f1b",
+    "https://pacoita.github.io/angular-pwa-boilerplate/index.html": "878ff5f3ca406a8896746c22f5fcdf656bb4baf7",
+    "https://pacoita.github.io/angular-pwa-boilerplate/main-es2015.aa346ab0abd3250385e4.js": "63656fdf36ed32a08350f73a975ea637b5905a1b",
+    "https://pacoita.github.io/angular-pwa-boilerplate/main-es5.8431e5a14d6c1981fcec.js": "7c7f85da06cb694d2ac095184323501bc3cb55c2",
     "https://pacoita.github.io/angular-pwa-boilerplate/polyfills-es2015.9a05c5eeb2c24cb2663d.js": "fa3294dc18f74d99ffb7812c33dbbdb3daf098ca",
     "https://pacoita.github.io/angular-pwa-boilerplate/polyfills-es5.fdab6b769da451ba6a00.js": "6c9688c6586bfcf669879655ba5874ef1d2b4bcf",
     "https://pacoita.github.io/angular-pwa-boilerplate/runtime-es2015.9ca3be5252992b4a93d5.js": "d33c2b45d01b280bdedc8b6419c1f4692b44b00b",
