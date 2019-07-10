@@ -26,7 +26,8 @@ The APIs used in the demo are:
 
 - https://icanhazdadjoke.com/api
 - https://www.worldtradingdata.com/
-<br><br><br>
+
+<br><br>
 
 ## 1. Update npm libraries
 
