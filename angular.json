@@ -121,8 +121,15 @@
               "devServerTarget": "angular-pwa:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "ngx-gh:deploy",
+          "options": {
+            "outputPath": "docs/"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-pwa"
 }

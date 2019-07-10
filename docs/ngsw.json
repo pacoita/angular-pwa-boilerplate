@@ -1,0 +1,108 @@
+{
+  "configVersion": 1,
+  "timestamp": 1562738832671,
+  "index": "/angular-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/angular-pwa/favicon.ico",
+        "/angular-pwa/index.html",
+        "/angular-pwa/main-es2015.d001856f6fc58dd9e8c0.js",
+        "/angular-pwa/main-es5.21e110f81e872ba5b432.js",
+        "/angular-pwa/polyfills-es2015.9a05c5eeb2c24cb2663d.js",
+        "/angular-pwa/polyfills-es5.fdab6b769da451ba6a00.js",
+        "/angular-pwa/runtime-es2015.9ca3be5252992b4a93d5.js",
+        "/angular-pwa/runtime-es5.1e270ad8dac51104f368.js",
+        "/angular-pwa/styles.09e2c710755c8867a460.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/angular-pwa/assets/icons/arrow_down.png",
+        "/angular-pwa/assets/icons/arrow_up.png",
+        "/angular-pwa/assets/icons/icon-128x128.png",
+        "/angular-pwa/assets/icons/icon-144x144.png",
+        "/angular-pwa/assets/icons/icon-152x152.png",
+        "/angular-pwa/assets/icons/icon-192x192.png",
+        "/angular-pwa/assets/icons/icon-384x384.png",
+        "/angular-pwa/assets/icons/icon-512x512.png",
+        "/angular-pwa/assets/icons/icon-72x72.png",
+        "/angular-pwa/assets/icons/icon-96x96.png",
+        "/angular-pwa/assets/logos/angular_logo.png",
+        "/angular-pwa/assets/logos/pwa_logo.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "jokes-cache",
+      "patterns": [
+        "https:\\/\\/icanhazdadjoke\\.com\\/"
+      ],
+      "strategy": "performance",
+      "maxSize": 5,
+      "maxAge": 86400000,
+      "version": 1
+    },
+    {
+      "name": "stocks-cache",
+      "patterns": [
+        "https:\\/\\/api\\.worldtradingdata\\.com\\/api\\/v1\\/stock"
+      ],
+      "strategy": "freshness",
+      "maxSize": 10,
+      "maxAge": 86400000,
+      "timeoutMs": 10000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/angular-pwa/assets/icons/arrow_down.png": "474309b1cb10f9e7ab1465f96b6f3966da90349f",
+    "/angular-pwa/assets/icons/arrow_up.png": "0f78121ab3506929fb6d0760ab05736bd1437276",
+    "/angular-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/angular-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/angular-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/angular-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/angular-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/angular-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/angular-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/angular-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/angular-pwa/assets/logos/angular_logo.png": "2ab8203e32bbc517f89df4642a38157a34d2d521",
+    "/angular-pwa/assets/logos/pwa_logo.png": "6fd7759562512941c8ee89855a409b658c2b0b16",
+    "/angular-pwa/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/angular-pwa/index.html": "0243f8eee5d65f3b4655ae46e2669b6a7f96d43d",
+    "/angular-pwa/main-es2015.d001856f6fc58dd9e8c0.js": "16d917911c0a2e3900f69c283235fd1cacf99711",
+    "/angular-pwa/main-es5.21e110f81e872ba5b432.js": "8587713dfa70267cd71ba849cec7a9ba5ef15c40",
+    "/angular-pwa/polyfills-es2015.9a05c5eeb2c24cb2663d.js": "fa3294dc18f74d99ffb7812c33dbbdb3daf098ca",
+    "/angular-pwa/polyfills-es5.fdab6b769da451ba6a00.js": "6c9688c6586bfcf669879655ba5874ef1d2b4bcf",
+    "/angular-pwa/runtime-es2015.9ca3be5252992b4a93d5.js": "d33c2b45d01b280bdedc8b6419c1f4692b44b00b",
+    "/angular-pwa/runtime-es5.1e270ad8dac51104f368.js": "d33c2b45d01b280bdedc8b6419c1f4692b44b00b",
+    "/angular-pwa/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
