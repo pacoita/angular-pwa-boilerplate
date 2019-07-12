@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1562748904702,
+  "timestamp": 1562940924408,
   "index": "https://pacoita.github.io/angular-pwa-boilerplate/index.html",
   "assetGroups": [
     {
@@ -10,12 +10,12 @@
       "urls": [
         "https://pacoita.github.io/angular-pwa-boilerplate/favicon.ico",
         "https://pacoita.github.io/angular-pwa-boilerplate/index.html",
-        "https://pacoita.github.io/angular-pwa-boilerplate/main-es2015.700994cb5c94d718fe5d.js",
-        "https://pacoita.github.io/angular-pwa-boilerplate/main-es5.0ecf9c8cc0fd6c7cc71c.js",
-        "https://pacoita.github.io/angular-pwa-boilerplate/polyfills-es2015.9a05c5eeb2c24cb2663d.js",
-        "https://pacoita.github.io/angular-pwa-boilerplate/polyfills-es5.fdab6b769da451ba6a00.js",
-        "https://pacoita.github.io/angular-pwa-boilerplate/runtime-es2015.9ca3be5252992b4a93d5.js",
-        "https://pacoita.github.io/angular-pwa-boilerplate/runtime-es5.1e270ad8dac51104f368.js",
+        "https://pacoita.github.io/angular-pwa-boilerplate/main-es2015.e6e4edf1c0a331587e2f.js",
+        "https://pacoita.github.io/angular-pwa-boilerplate/main-es5.cdd0b31dfd74e051d0ef.js",
+        "https://pacoita.github.io/angular-pwa-boilerplate/polyfills-es2015.7a264d14fd7126ba8db0.js",
+        "https://pacoita.github.io/angular-pwa-boilerplate/polyfills-es5.03d8c9fc4ed8e610412b.js",
+        "https://pacoita.github.io/angular-pwa-boilerplate/runtime-es2015.4587a41ec581ac36b84a.js",
+        "https://pacoita.github.io/angular-pwa-boilerplate/runtime-es5.ad242060da3c12c5d21f.js",
         "https://pacoita.github.io/angular-pwa-boilerplate/styles.09e2c710755c8867a460.css"
       ],
       "patterns": []
@@ -78,13 +78,13 @@
     "https://pacoita.github.io/angular-pwa-boilerplate/assets/logos/angular_logo.png": "2ab8203e32bbc517f89df4642a38157a34d2d521",
     "https://pacoita.github.io/angular-pwa-boilerplate/assets/logos/pwa_logo.png": "6fd7759562512941c8ee89855a409b658c2b0b16",
     "https://pacoita.github.io/angular-pwa-boilerplate/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://pacoita.github.io/angular-pwa-boilerplate/index.html": "e0abffb47138ed11c052588128c559f531364aaa",
-    "https://pacoita.github.io/angular-pwa-boilerplate/main-es2015.700994cb5c94d718fe5d.js": "d441af4afc9c49b3ae61f65709bacc0c1e7d46ef",
-    "https://pacoita.github.io/angular-pwa-boilerplate/main-es5.0ecf9c8cc0fd6c7cc71c.js": "c460c9372deeaef06d1320e7514a0341fb5eb897",
-    "https://pacoita.github.io/angular-pwa-boilerplate/polyfills-es2015.9a05c5eeb2c24cb2663d.js": "fa3294dc18f74d99ffb7812c33dbbdb3daf098ca",
-    "https://pacoita.github.io/angular-pwa-boilerplate/polyfills-es5.fdab6b769da451ba6a00.js": "6c9688c6586bfcf669879655ba5874ef1d2b4bcf",
-    "https://pacoita.github.io/angular-pwa-boilerplate/runtime-es2015.9ca3be5252992b4a93d5.js": "d33c2b45d01b280bdedc8b6419c1f4692b44b00b",
-    "https://pacoita.github.io/angular-pwa-boilerplate/runtime-es5.1e270ad8dac51104f368.js": "d33c2b45d01b280bdedc8b6419c1f4692b44b00b",
+    "https://pacoita.github.io/angular-pwa-boilerplate/index.html": "5f7692d62bdec55ab9a3634e44c40defec43f2c5",
+    "https://pacoita.github.io/angular-pwa-boilerplate/main-es2015.e6e4edf1c0a331587e2f.js": "66b66d82ff212f5136c9ef1392a35eb23fef6ff0",
+    "https://pacoita.github.io/angular-pwa-boilerplate/main-es5.cdd0b31dfd74e051d0ef.js": "e9a33b5d868df7dd7ec8253fc7540a4c1a366cfc",
+    "https://pacoita.github.io/angular-pwa-boilerplate/polyfills-es2015.7a264d14fd7126ba8db0.js": "058203dab4ba87056d6976029ba60fa42e6f75b9",
+    "https://pacoita.github.io/angular-pwa-boilerplate/polyfills-es5.03d8c9fc4ed8e610412b.js": "6c9688c6586bfcf669879655ba5874ef1d2b4bcf",
+    "https://pacoita.github.io/angular-pwa-boilerplate/runtime-es2015.4587a41ec581ac36b84a.js": "d33c2b45d01b280bdedc8b6419c1f4692b44b00b",
+    "https://pacoita.github.io/angular-pwa-boilerplate/runtime-es5.ad242060da3c12c5d21f.js": "d33c2b45d01b280bdedc8b6419c1f4692b44b00b",
     "https://pacoita.github.io/angular-pwa-boilerplate/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
