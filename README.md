@@ -49,6 +49,11 @@ As we cannot use `ne serve` with service workers, you need to run a web server i
 
 Open the browser at the proposed address.
 <br><br>
+## To-do
+- Make application responsive
+
+
+<br><br>
 ## Troubleshooting
 If, *and only if*, the service worker is not registered when the application is served locally via web server, then you can force explicitly the SW registration.
 
