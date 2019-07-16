@@ -4,8 +4,6 @@
   </a>
   <br>
 <p align="center"> 
-    
-  &nbsp;&nbsp;&nbsp;
   <strong>Follow me on Twitter or Dev.to:&nbsp;&nbsp;&nbsp;</strong>
   <a href="https://twitter.com/paco_ita">
     <img alt="Twitter: paco_ita" src="https://img.shields.io/twitter/follow/paco_ita.svg?style=social" target="_blank" />
