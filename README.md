@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to the Angular Pwa demo!</h1>
-<a href="https://www.ruby-lang.org/en/">
+<a href="https://www.npmjs.com/package/@angular/core">
     <img src="https://img.shields.io/badge/Angular-v8.1.0-green.svg" alt="ruby version">
   </a>
   <br>
