@@ -14,7 +14,7 @@
 </a> 
 </p>
 <br>
-This repository is the practical counterpart of my article ("[Create Progressive Web Apps with Angular, Workbox, PWA Builder](https://dev.to/paco_ita/create-progressive-web-apps-with-angular-workbox-pwa-builder-step-4-27d#angular)") publisehd on Dev.to.<br>The article is part of a series focusing on Progressive Web Apps technologies.
+This repository is the practical counterpart of my article <a href="https://dev.to/paco_ita/create-progressive-web-apps-with-angular-workbox-pwa-builder-step-4-27d#angular">Create Progressive Web Apps with Angular, Workbox, PWA Builder</a> publisehd on Dev.to.<br>The article is part of a series focusing on Progressive Web Apps technologies.
 <br><br>
   
 <p align="center">
