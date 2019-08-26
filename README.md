@@ -52,6 +52,7 @@ As we cannot use `ne serve` with service workers, you need to run a web server i
 Open the browser at the proposed address.
 <br><br>
 ## To-do
+:black_square_button: Show notification when a new SW version is available (use swUpdate)
 :black_square_button: Make the application responsive
 
 
