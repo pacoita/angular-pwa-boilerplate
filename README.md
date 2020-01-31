@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to the Angular Pwa demo!</h1>
-<a href="https://www.npmjs.com/package/@angular/core" style="display: inline; margin-right: 15px;">
+<a href="https://www.npmjs.com/package/@angular/core">
   <img src="https://img.shields.io/badge/Angular-v8.1.0-green.svg" alt="Angular version">
 </a>
 <span><img src="https://www.pwa-shields.com/1.0.0/series/classic/white/green.svg" alt="PwaShield"></span>
