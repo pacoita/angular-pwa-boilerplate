@@ -2,7 +2,7 @@
 <a href="https://www.npmjs.com/package/@angular/core" style="display: inline; margin-right: 15px;">
   <img src="https://img.shields.io/badge/Angular-v8.1.0-green.svg" alt="Angular version">
 </a>
-<img src="https://www.pwa-shields.com/1.0.0/series/classic/white/green.svg" alt="PwaShield">
+<span><img src="https://www.pwa-shields.com/1.0.0/series/classic/white/green.svg" alt="PwaShield"></span>
   <br>
 <p align="center"> 
   <strong>Follow me on Twitter or Dev.to:&nbsp;&nbsp;&nbsp;</strong>
