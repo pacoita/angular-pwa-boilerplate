@@ -10,7 +10,8 @@
           "/favicon.ico",
           "/index.html",
           "/*.css",
-          "/*.js"
+          "/*.js",
+          "/manifest.webmanifest"
         ]
       }
     }, {
@@ -41,7 +42,7 @@
       "strategy": "freshness",
       "maxSize": 10,
       "maxAge": "1d",
-      "timeout": "10s"
+      "timeout": "5s"
     }
   }]
 }
