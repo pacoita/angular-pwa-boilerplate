@@ -4,7 +4,7 @@
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
-  "scope": "/angular-pwa-boilerplate/",
+  "scope": "https://pacoita.github.io/angular-pwa-boilerplate/",
   "start_url": "/",
   "icons": [
     {
