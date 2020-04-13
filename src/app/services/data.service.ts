@@ -23,7 +23,7 @@ export class DataService {
   getShares() {
     return this.httpClient
       .get<Share>(
-        `https://api.worldtradingdata.com/api/v1/stock?symbol=AAPL,MSFT,HSBA.L&api_token=demo`
+        `https://api.worldtradingdata.com/api/v1/stock?symbol=SNAP,TWTR&api_token=demo`
       )
       .pipe(map((res: any) => this.mapToShareDto(res.data[0])));
   }
@@ -37,7 +37,7 @@ export class DataService {
         currency: sharesData.currency,
         dayHigh: sharesData.day_high,
         dayLow: sharesData.day_low,
-        lastTradeTime: sharesData.last_trade_time
+        lastTradeTime: !sharesData.last_trade_time || sharesData.last_trade_time === 'N/A' ? '' : sharesData.last_trade_time
       };
     }
 

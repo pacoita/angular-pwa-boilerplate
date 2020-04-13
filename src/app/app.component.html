@@ -21,18 +21,18 @@
       <h2 class="card-title">Shares info </h2>
       <div class="shares-metadata">
         <strong>Symbol: {{sharesData.name}}</strong>
-        <span>Last trade time: {{sharesData.lastTradeTime | date:'dd.MM.yyyy HH:mm'}}</span>
+        <span>Last trade time: {{!!sharesData.lastTradeTime ? (sharesData.lastTradeTime | date:'dd.MM.yyyy HH:mm') : 'N/A'}}</span>
       </div>
       <div class="shares-details">
         <div class="price">{{sharesData.price}} {{sharesData.currency}}</div>
         <div class="values">
           <div class="values-wrap">
             <img src="./assets/icons/arrow_up.png" alt="arrow_up" title="Highest value">
-            <span class="high_value">{{sharesData.dayHigh}}</span>
+            <span class="high_value">{{sharesData?.dayHigh || 'N/A'}}</span>
           </div>
           <div class="values-wrap">
             <img src="./assets/icons/arrow_down.png" alt="arrow_down" title="Lowest value">
-            <span>{{sharesData.dayLow}}</span>
+            <span>{{sharesData?.dayLow || 'N/A'}}</span>
           </div>
         </div>
       </div>
