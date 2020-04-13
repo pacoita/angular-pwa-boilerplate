@@ -12,7 +12,7 @@
   <div class="content">
     <div class="data-container" *ngIf="jokes$ | async as jokeData">
       <h2 class="card-title">Daily joke </h2>
-      <p>
+      <p class="joke-text">
         {{jokeData.joke}}
       </p>
     </div>
