@@ -19,16 +19,16 @@ This repository is the practical counterpart of my article <a href="https://dev.
 <br><br>
   
 <p align="center">
-  <img width="500" height="400" src="https://res.cloudinary.com/practicaldev/image/fetch/s--GS9m4CLY--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/rhk8cbaw0jrhqzw4kfz0.PNG">
+  <img width="500" height="400" src="https://res.cloudinary.com/practicaldev/image/fetch/s--Dzohyc-4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/k65j1f6ewz0rq0w5kfl9.PNG">
 </p>
 <br><br>
 
 <a href="https://pacoita.github.io/angular-pwa-boilerplate/"> You can test the Angular PWA demo here.</a>
 <br><br>
-The external APIs used:
+The external APIs used are:
 
-- https://icanhazdadjoke.com/api
-- https://www.worldtradingdata.com/
+- https://icanhazdadjoke.com/api (using the **performance** caching strategy)
+- https://aws.random.cat/meow (using the **freshness** caching strategy)
 
 <br><br>
 
@@ -53,32 +53,8 @@ As we cannot use `ne serve` with service workers, you need to run a web server i
 Open the browser at the proposed address.
 <br><br>
 ## To-do
-:black_square_button: Make the application responsive <br>
+:white_check_mark: Make the application responsive <br>
 :black_square_button: Show notification when a new SW version is available (use swUpdate) <br>
-:black_square_button: Provide a dark mode
-
-
-<br><br>
-## Troubleshooting
-If, *and only if*, the service worker is not registered when the application is served locally via web server, then you can force explicitly the SW registration.
-
-Add the following snipped in the `main.ts` file:
-
-```javascript
-platformBrowserDynamic()
-    .bootstrapModule(AppModule)
-    .then(() => {
-        if ('serviceWorker' in navigator && environment.production) {
-            navigator.serviceWorker.register('./ngsw-worker.js');
-        }
-    })
-    .catch(console.error);
-```
-
-Other users reported issues with some versions of the angular-cli:
-
-[Github issue](https://github.com/angular/angular-cli/issues/13351)
-
-[Github comment](https://github.com/angular/angular-cli/issues/8515#issuecomment-486017106)
+:black_square_button: Introduce Share API
 
 
