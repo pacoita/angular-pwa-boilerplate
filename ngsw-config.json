@@ -14,7 +14,8 @@
           "/manifest.webmanifest"
         ]
       }
-    }, {
+    },
+    {
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
@@ -26,23 +27,29 @@
       }
     }
   ],
-  "dataGroups": [{
-    "name": "jokes-cache",
-    "urls": [ "https://icanhazdadjoke.com/" ],
-    "cacheConfig": {
-      "strategy": "performance",
-      "maxSize": 5,
-      "maxAge": "1d"
+  "dataGroups": [
+    {
+      "name": "jokes-cache",
+      "urls": [
+        "https://icanhazdadjoke.com/"
+      ],
+      "cacheConfig": {
+        "strategy": "performance",
+        "maxSize": 5,
+        "maxAge": "1d"
+      }
+    },
+    {
+      "name": "cats-cache",
+      "urls": [
+        "https://aws.random.cat/meow"
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 10,
+        "maxAge": "1d",
+        "timeout": "5s"
+      }
     }
-  },
-  {
-    "name": "stocks-cache",
-    "urls": [ "https://api.worldtradingdata.com/api/v1/stock" ],
-    "cacheConfig": {
-      "strategy": "freshness",
-      "maxSize": 10,
-      "maxAge": "1d",
-      "timeout": "5s"
-    }
-  }]
+  ]
 }

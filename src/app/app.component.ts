@@ -1,23 +1,22 @@
-import { Share } from './models/share';
 import { Joke } from './models/joke';
 import { Component, OnInit } from '@angular/core';
 import { DataService } from './services/data.service';
 import { Observable } from 'rxjs';
+import { CatsPhoto } from './models/cats-photo';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
 
-  jokes$: Observable<Joke>;
-  sharesData$: Observable<Share>;
+  joke$: Observable<Joke>;
+  catUrl$: Observable<CatsPhoto>;
 
-  constructor(private dataService: DataService) {}
+  constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
-    this.jokes$ = this.dataService.getJoke();
-    this.sharesData$ = this.dataService.getShares();
+    this.joke$ = this.dataService.getJoke();
+    this.catUrl$ = this.dataService.getCats();
   }
 }

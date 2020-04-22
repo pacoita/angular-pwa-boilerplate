@@ -1,4 +1,4 @@
-export class Joke {
+export interface Joke {
   id: string;
   joke: string;
   status: number;
