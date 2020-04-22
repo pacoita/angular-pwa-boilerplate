@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to the Angular Pwa demo!</h1>
 <a href="https://www.npmjs.com/package/@angular/core">
-  <img src="https://img.shields.io/badge/Angular-v9.1.0-green.svg" alt="Angular version">
+  <img src="https://img.shields.io/badge/Angular-v9.1.2-green.svg" alt="Angular version">
 </a>
 <span><img src="https://www.pwa-shields.com/1.0.0/series/classic/white/green.svg" alt="PwaShield"></span>
   <br>
@@ -19,7 +19,7 @@ This repository is the practical counterpart of my article <a href="https://dev.
 <br><br>
   
 <p align="center">
-  <img width="500" height="400" src="https://res.cloudinary.com/practicaldev/image/fetch/s--O66SNC6e--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/4paaac35wijuh7u6wtun.png">
+  <img width="500" height="400" src="https://res.cloudinary.com/practicaldev/image/fetch/s--GS9m4CLY--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/rhk8cbaw0jrhqzw4kfz0.PNG">
 </p>
 <br><br>
 
