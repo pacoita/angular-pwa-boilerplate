@@ -9,7 +9,8 @@
       "updateMode": "prefetch",
       "urls": [
         "/angular-pwa-boilerplate/favicon.ico",
-        "/angular-pwa-boilerplate/main.6ecca7825e2ebd791c7d.js",
+        "/angular-pwa-boilerplate/main.6ecca7825e2ebd791c7d.js",        
+        "/angular-pwa-boilerplate/index.html",
         "/angular-pwa-boilerplate/manifest.webmanifest",
         "/angular-pwa-boilerplate/polyfills-es5.c2befd0464b0c6096800.js",
         "/angular-pwa-boilerplate/polyfills.5b29e397f9c86c8dad9e.js",
@@ -77,7 +78,6 @@
     "/angular-pwa-boilerplate/assets/logos/angular_logo.png": "2ab8203e32bbc517f89df4642a38157a34d2d521",
     "/angular-pwa-boilerplate/assets/logos/pwa_logo.png": "6fd7759562512941c8ee89855a409b658c2b0b16",
     "/angular-pwa-boilerplate/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/angular-pwa-boilerplate/index.html": "54329ce4f2e2f87af8a474c172b4a8b5b8c704f0",
     "/angular-pwa-boilerplate/main.6ecca7825e2ebd791c7d.js": "f791937174986f427aac5890fa3052afd84d7ae4",
     "/angular-pwa-boilerplate/manifest.webmanifest": "cbcd3fc3623610507d05fab49a40b0fcb22f47bb",
     "/angular-pwa-boilerplate/polyfills-es5.c2befd0464b0c6096800.js": "d579f086e6369e2976d5e4afdf8789d3239c59a3",
