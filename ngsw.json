@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1587632581467,
+  "timestamp": 1587643044808,
   "index": "/angular-pwa-boilerplate/index.html",
   "assetGroups": [
     {
@@ -54,10 +54,11 @@
     {
       "name": "cats-cache",
       "patterns": [
-        "https:\\/\\/aws\\.random\\.cat\\/meow"
+        "https:\\/\\/aws\\.random\\.cat\\/meow",
+        "https:\\/\\/purr\\.objects-us-east-1\\.dream\\.io\\/i\\/.*"
       ],
       "strategy": "freshness",
-      "maxSize": 10,
+      "maxSize": 5,
       "maxAge": 86400000,
       "timeoutMs": 5000,
       "version": 1
