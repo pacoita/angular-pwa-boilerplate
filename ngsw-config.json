@@ -42,7 +42,8 @@
     {
       "name": "cats-cache",
       "urls": [
-        "https://aws.random.cat/meow"
+        "https://aws.random.cat/meow",
+        "https://purr.objects-us-east-1.dream.io/i/**"
       ],
       "cacheConfig": {
         "strategy": "freshness",
