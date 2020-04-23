@@ -6,7 +6,6 @@
     "start": "ng serve",
     "build": "ng build",
     "prod": "ng build --prod",
-    "deploy:github": "ng run angular-pwa:deploy --baseHref https://pacoita.github.io/angular-pwa-boilerplate/ --deployUrl https://pacoita.github.io/angular-pwa-boilerplate/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
