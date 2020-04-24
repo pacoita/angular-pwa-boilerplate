@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1587717594101,
+  "timestamp": 1587717724779,
   "index": "/angular-pwa-boilerplate/index.html",
   "assetGroups": [
     {
@@ -10,7 +10,7 @@
       "urls": [
         "/angular-pwa-boilerplate/favicon.ico",
         "/angular-pwa-boilerplate/index.html",
-        "/angular-pwa-boilerplate/main.f6bda46d0199d6822f37.js",
+        "/angular-pwa-boilerplate/main.01cf784229e197ce69b2.js",
         "/angular-pwa-boilerplate/manifest.webmanifest",
         "/angular-pwa-boilerplate/polyfills-es5.c2befd0464b0c6096800.js",
         "/angular-pwa-boilerplate/polyfills.5b29e397f9c86c8dad9e.js",
@@ -78,8 +78,8 @@
     "/angular-pwa-boilerplate/assets/logos/angular_logo.png": "2ab8203e32bbc517f89df4642a38157a34d2d521",
     "/angular-pwa-boilerplate/assets/logos/pwa_logo.png": "6fd7759562512941c8ee89855a409b658c2b0b16",
     "/angular-pwa-boilerplate/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/angular-pwa-boilerplate/index.html": "ac9df717d7b05ee5fd92c0ad34d2936e6c3d6636",
-    "/angular-pwa-boilerplate/main.f6bda46d0199d6822f37.js": "e11bf7e30721d42662e14ca0ddfa58a9d48d0cdd",
+    "/angular-pwa-boilerplate/index.html": "4b766704cc059acb08f7ba4149171ebc25a1a703",
+    "/angular-pwa-boilerplate/main.01cf784229e197ce69b2.js": "2a9ad1a41ea4dee9677ce2fccaa81596091ddaf9",
     "/angular-pwa-boilerplate/manifest.webmanifest": "cbcd3fc3623610507d05fab49a40b0fcb22f47bb",
     "/angular-pwa-boilerplate/polyfills-es5.c2befd0464b0c6096800.js": "d579f086e6369e2976d5e4afdf8789d3239c59a3",
     "/angular-pwa-boilerplate/polyfills.5b29e397f9c86c8dad9e.js": "00d68f6bec8622ed1a323563d0a30dd7a541895c",
