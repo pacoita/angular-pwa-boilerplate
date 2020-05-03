@@ -270,9 +270,11 @@
   </div>
 
   <div class="card-container">
-    <div id="joke-div" class="card" *ngIf="joke$ | async as jokeObj">
+    <div id="joke-div" class="card">
       <h2 class="card-title">Daily joke 😂</h2>
-      <span id="text">{{jokeObj?.joke}}</span>
+      <span id="text" *ngIf="joke$ | async as jokeObj; else loader">
+        {{jokeObj?.joke}}
+      </span>
       <hr>
       <h3>This API uses <a href="https://angular.io/guide/service-worker-config#strategy" rel="noopener"
           target="_blank">Performance</a> caching strategy</h3>
@@ -284,9 +286,11 @@
         avatar
         images.</span>
     </div>
-    <div id="image-div" class="card" *ngIf="catUrl$ | async as photoUrl">
+    <div id="image-div" class="card">
       <h2 class="card-title">A fresh cat photo 🐱</h2>
-      <div><img [src]="photoUrl?.file" alt="Cat image" loading="auto" /></div>
+      <div *ngIf="catUrl$ | async as photoUrl; else loader">
+        <img [src]="photoUrl?.file" alt="Cat image" loading="auto" />
+      </div>
       <hr>
       <h3>This API uses <a href="https://angular.io/guide/service-worker-config#strategy" rel="noopener"
           target="_blank">Freshness</a> caching strategy</h3>
@@ -297,6 +301,9 @@
         frequently; for example, account balances.</span>
     </div>
   </div>
+  <ng-template #loader>
+    <div class="loader"></div>
+  </ng-template>
 
   <svg id="clouds" alt="Gray Clouds Background" xmlns="http://www.w3.org/2000/svg" width="2611.084" height="485.677"
     viewBox="0 0 2611.084 485.677">
