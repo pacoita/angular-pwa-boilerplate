@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1587814506178,
+  "timestamp": 1588527479577,
   "index": "/angular-pwa-boilerplate/index.html",
   "assetGroups": [
     {
@@ -10,12 +10,12 @@
       "urls": [
         "/angular-pwa-boilerplate/favicon.ico",
         "/angular-pwa-boilerplate/index.html",
-        "/angular-pwa-boilerplate/main.01cf784229e197ce69b2.js",
+        "/angular-pwa-boilerplate/main.c13ee205250ee06ba44f.js",
         "/angular-pwa-boilerplate/manifest.webmanifest",
         "/angular-pwa-boilerplate/polyfills-es5.c2befd0464b0c6096800.js",
         "/angular-pwa-boilerplate/polyfills.5b29e397f9c86c8dad9e.js",
         "/angular-pwa-boilerplate/runtime.7d7e9038a1cdbceb3d53.js",
-        "/angular-pwa-boilerplate/styles.09e2c710755c8867a460.css"
+        "/angular-pwa-boilerplate/styles.9a2267904d683b8bda33.css"
       ],
       "patterns": []
     },
@@ -78,13 +78,13 @@
     "/angular-pwa-boilerplate/assets/logos/angular_logo.png": "2ab8203e32bbc517f89df4642a38157a34d2d521",
     "/angular-pwa-boilerplate/assets/logos/pwa_logo.png": "6fd7759562512941c8ee89855a409b658c2b0b16",
     "/angular-pwa-boilerplate/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/angular-pwa-boilerplate/index.html": "4b766704cc059acb08f7ba4149171ebc25a1a703",
-    "/angular-pwa-boilerplate/main.01cf784229e197ce69b2.js": "2a9ad1a41ea4dee9677ce2fccaa81596091ddaf9",
-    "/angular-pwa-boilerplate/manifest.webmanifest": "80f7bc8188e9c8fe5e3148d373555095ab75ecfd",
+    "/angular-pwa-boilerplate/index.html": "15d25cad4c798587f7b7b5b1cd26ea1d6f48fe0f",
+    "/angular-pwa-boilerplate/main.c13ee205250ee06ba44f.js": "3e0067bf16453c6931819c07c1400b0807e1956f",
+    "/angular-pwa-boilerplate/manifest.webmanifest": "88d5a912c54f29fe0743a02be3c6f208cc7d5880",
     "/angular-pwa-boilerplate/polyfills-es5.c2befd0464b0c6096800.js": "d579f086e6369e2976d5e4afdf8789d3239c59a3",
     "/angular-pwa-boilerplate/polyfills.5b29e397f9c86c8dad9e.js": "00d68f6bec8622ed1a323563d0a30dd7a541895c",
     "/angular-pwa-boilerplate/runtime.7d7e9038a1cdbceb3d53.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/angular-pwa-boilerplate/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/angular-pwa-boilerplate/styles.9a2267904d683b8bda33.css": "51821985787aab1f63ad98c6fc16c3cc43dab155"
   },
   "navigationUrls": [
     {
