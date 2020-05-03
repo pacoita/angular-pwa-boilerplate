@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+  hr {
+      margin: 30px 0;
+  }
+
+  .card-title {
+      margin-bottom: 25px;
+  }
+
+  #joke-div {
+      margin-right: 30px;
+      max-width: 450px;
+  }
+
+  #joke-div #text {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 45px;
+  }
+
+  #image-div img {
+      width: 100%;
+  }
+
+  svg#rocket {
+      width: 80px;
+      position: absolute;
+      left: -10px;
+      top: -24px;
+  }
+
+  svg#rocket-smoke {
+      height: calc(100vh - 95px);
+      position: absolute;
+      top: 10px;
+      right: 180px;
+      z-index: -10;
+  }
+
+  svg#clouds {
+      position: fixed;
+      bottom: -160px;
+      left: -230px;
+      z-index: -10;
+      width: 1920px;
+  }
