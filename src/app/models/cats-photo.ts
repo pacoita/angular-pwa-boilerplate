@@ -1,3 +1,3 @@
 export interface CatsPhoto {
-    file: string;
+    url: string;
 }

@@ -21,6 +21,6 @@ export class DataService {
    * Returns random cats photos
    */
   getCats() {
-    return this.httpClient.get<CatsPhoto>('https://aws.random.cat/meow');
+    return this.httpClient.get<CatsPhoto>('https://api.thecatapi.com/v1/images/search');
   }
 }

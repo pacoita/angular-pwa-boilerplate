@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to the Angular Pwa demo!</h1>
 <a href="https://www.npmjs.com/package/@angular/core">
-  <img src="https://img.shields.io/badge/Angular-v9.1.2-green.svg" alt="Angular version">
+  <img src="https://img.shields.io/badge/Angular-v9.1.3-green.svg" alt="Angular version">
 </a>
 <span><img src="https://www.pwa-shields.com/1.0.0/series/classic/white/green.svg" alt="PwaShield"></span>
   <br>
@@ -28,7 +28,7 @@ This repository is the practical counterpart of my article <a href="https://dev.
 The external APIs used are:
 
 - https://icanhazdadjoke.com/api (using the **performance** caching strategy)
-- https://aws.random.cat/meow (using the **freshness** caching strategy)
+- https://api.thecatapi.com/v1/images/search (using the **freshness** caching strategy)
 
 <br><br>
 

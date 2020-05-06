@@ -42,12 +42,12 @@
     {
       "name": "cats-cache",
       "urls": [
-        "https://aws.random.cat/meow",
-        "https://purr.objects-us-east-1.dream.io/i/**"
+        "https://api.thecatapi.com/v1/images/search",
+        "https://cdn2.thecatapi.com/images/**"
       ],
       "cacheConfig": {
         "strategy": "freshness",
-        "maxSize": 5,
+        "maxSize": 1,
         "maxAge": "1d",
         "timeout": "5s"
       }

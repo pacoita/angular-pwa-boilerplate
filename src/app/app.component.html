@@ -284,8 +284,8 @@
     </div>
     <div id="image-div" class="card">
       <h2 class="card-title">A fresh cat photo 🐱</h2>
-      <div *ngIf="catUrl$ | async as photoUrl; else loader">
-        <img [src]="photoUrl?.file" alt="Cat image" loading="auto" />
+      <div *ngIf="catUrl$ | async as catData; else loader">
+        <img [src]="catData[0]?.url" alt="Cat image" loading="auto" />
       </div>
       <hr>
       <h3>This API uses <a href="https://angular.io/guide/service-worker-config#strategy" rel="noopener"
