@@ -44,6 +44,10 @@
       width: 1920px;
   }
 
+  .loader-wrap {
+    height: 180px; // Prevent card from moving
+  }
+
   /*Spinner - by Luke Haas - https://projects.lukehaas.me/css-loaders */
   .loader,
   .loader:before,
