@@ -31,24 +31,24 @@
     {
       "name": "jokes-cache",
       "urls": [
-        "https://icanhazdadjoke.com/"
+        "/icanhazdadjoke.com"
       ],
       "cacheConfig": {
         "strategy": "performance",
         "maxSize": 5,
-        "maxAge": "1d"
+        "maxAge": "15m"
       }
     },
     {
       "name": "cats-cache",
       "urls": [
-        "https://api.thecatapi.com/v1/images/search",
-        "https://cdn2.thecatapi.com/images/**"
+        "/api.thecatapi.com/v1/images/search",
+        "/cdn2.thecatapi.com/images/**"
       ],
       "cacheConfig": {
         "strategy": "freshness",
-        "maxSize": 1,
-        "maxAge": "1d",
+        "maxSize": 10,
+        "maxAge": "1h",
         "timeout": "5s"
       }
     }
