@@ -26,31 +26,5 @@
         ]
       }
     }
-  ],
-  "dataGroups": [
-    {
-      "name": "jokes-cache",
-      "urls": [
-        "/icanhazdadjoke.com"
-      ],
-      "cacheConfig": {
-        "strategy": "performance",
-        "maxSize": 5,
-        "maxAge": "15m"
-      }
-    },
-    {
-      "name": "cats-cache",
-      "urls": [
-        "/api.thecatapi.com/v1/images/search",
-        "/cdn2.thecatapi.com/images/**"
-      ],
-      "cacheConfig": {
-        "strategy": "freshness",
-        "maxSize": 10,
-        "maxAge": "1h",
-        "timeout": "5s"
-      }
-    }
   ]
 }

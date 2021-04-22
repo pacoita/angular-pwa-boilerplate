@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "server": "npx http-server ./dist",
     "build": "ng build",
     "prod": "ng build --prod",
     "test": "ng test",
