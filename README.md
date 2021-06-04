@@ -11,11 +11,11 @@
   </a>
 </p>
 <br>
-This repository shows how to use Progressive Web Apps features in an Angular project. <br><br>
-Not only we can cache static assets (.html, .js, .css) and make them available offline, but we can also cache GET responses according to different caching strategies (*performance* and *freshness* strategy). This allows to cover different scenarios in our applications, whether we want to provide blazing fast answers or always up-to-date responses from the network, but allowing to fallback to the cache if the connection is not stable.
+This repository shows how to use Progressive Web Apps features in an Angular project. 
 <br><br> Do you wanto to learn more about the amazing technologies behind Progressive Web Apps? <br>Then have a look at the 
 <a href="https://www.educative.io/courses/zero-to-hero-with-progressive-web-apps" target="_blank"> complete course about PWAs</a> publisehd on Educative learning portal.
 <br><br>
+With PWAs not only we can cache static assets (.html, .js, .css) and make them available offline, but we can also cache GET responses according to different caching strategies (<i>performance</i> or <i>freshness</i>). This allows to cover many different scenarios in our applications, whether we want to provide blazing fast responses without the need of a network roundtrip or rather return the latest data from the server, falling back to the local cache in absence of a reliable connection.<br><br>
   
 <p align="center">
   <img width="500" height="400" src="https://res.cloudinary.com/practicaldev/image/fetch/s--Dzohyc-4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/k65j1f6ewz0rq0w5kfl9.PNG">
