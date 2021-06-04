@@ -5,17 +5,16 @@
 <span><img src="https://www.pwa-shields.com/1.0.0/series/classic/white/green.svg" alt="PwaShield"></span>
   <br>
 <p align="center"> 
-  <strong>Follow me on Twitter or Dev.to:&nbsp;&nbsp;&nbsp;</strong>
+  <strong>Follow me on Twitter&nbsp;&nbsp;&nbsp;</strong>
   <a href="https://twitter.com/paco_ita">
     <img alt="Twitter: paco_ita" src="https://img.shields.io/twitter/follow/paco_ita.svg?style=social" target="_blank" />
   </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://dev.to/paco_ita">
-  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Francesco Leardini's DEV Profile" height="30" width="30">
-</a> 
 </p>
 <br>
-This repository is the practical counterpart of my article <a href="https://dev.to/paco_ita/create-progressive-web-apps-with-angular-workbox-pwa-builder-step-4-27d#angular">Create Progressive Web Apps with Angular, Workbox, PWA Builder</a> publisehd on Dev.to. The article is part of a series focusing on Progressive Web Apps technologies.
+This repository shows how to use Progressive Web Apps features in an Angular project. <br><br>
+Not only we can cache static assets (.html, .js, .css) and make them available offline, but we can also cache GET responses according to different caching strategies (*performance* and *freshness* strategy). This allows to cover different scenarios in our applications, whether we want to provide blazing fast answers or always up-to-date responses from the network, but allowing to fallback to the cache if the connection is not stable.
+<br><br> Do you wanto to learn more about the amazing technologies behind Progressive Web Apps? <br>Then have a look at the 
+<a href="https://www.educative.io/courses/zero-to-hero-with-progressive-web-apps" target="_blank"> complete course about PWAs</a> publisehd on Educative learning portal.
 <br><br>
   
 <p align="center">
