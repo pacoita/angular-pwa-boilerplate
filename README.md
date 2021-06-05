@@ -5,7 +5,6 @@
 <span><img src="https://www.pwa-shields.com/1.0.0/series/classic/white/green.svg" alt="PwaShield"></span>
   <br>
 <p align="center"> 
-  <strong>Follow me on Twitter&nbsp;&nbsp;&nbsp;</strong>
   <a href="https://twitter.com/paco_ita">
     <img alt="Twitter: paco_ita" src="https://img.shields.io/twitter/follow/paco_ita.svg?style=social" target="_blank" />
   </a>
