@@ -6,7 +6,7 @@
     "start": "ng serve",
     "server": "npx http-server ./dist",
     "build": "ng build",
-    "prod": "ng build --prod",
+    "prod": "ng build --configuration production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
