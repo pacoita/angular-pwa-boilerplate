@@ -22,8 +22,34 @@
       "resources": {
         "files": [
           "/assets/**",
-          "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+          "/*.(svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
         ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "jokes-cache",
+      "urls": [
+        "/icanhazdadjoke.com"
+      ],
+      "cacheConfig": {
+        "strategy": "performance",
+        "maxSize": 5,
+        "maxAge": "15m"
+      }
+    },
+    {
+      "name": "cats-cache",
+      "urls": [
+        "/api.thecatapi.com/v1/images/search",
+        "/cdn2.thecatapi.com/images/**"
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 10,
+        "maxAge": "1h",
+        "timeout": "5s"
       }
     }
   ]
